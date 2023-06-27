@@ -1,3 +1,3 @@
-# agent_based_av
+This document serves as an accompanying guide for the technical execution of the thesis: 
 
-view: https://github.com/LouisKIT/matsim-berlin
+Sustainability of Autonomous Vehicles: An Agent-based Simulation of the Private Passenger Sector
