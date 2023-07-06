@@ -6,7 +6,7 @@ In the submodule "matsim-berlin" find attached the forked version of the Open Be
 
 In the folger Data-Preparation find attached the python scripts to process the original input files of the Open Berlin Scenario to implement the above mentioned adjustments.
 
-Necessary changes to make the scenarios work (https://github.com/daniel-bogdoll/matsim-berlin/tree/7c28ca12cc283561cd2b7236430d6381cc704ef6/scenarios/berlin-v5.5-1pct/input/drt):
+Necessary changes to make the scenarios work: https://github.com/daniel-bogdoll/matsim-berlin/tree/7c28ca12cc283561cd2b7236430d6381cc704ef6/scenarios/berlin-v5.5-1pct/input/drt
 
 - Update config (local files instead of cloud based)
   
