@@ -25,4 +25,4 @@ Necessary changes to make the scenarios work: https://github.com/daniel-bogdoll/
       Iteratively go through the plan file to replace all plans for car travel, accoring to the scenario and demand, with DRT travel
 
 
-  In order to reproduce the changes, run xy.py in the following order
+  In order to reproduce the changes, run xy.py in the following order [TO-DO: Code dynamisch gestalten]
