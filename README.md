@@ -1,3 +1,5 @@
+Summary
+
 Prerequisites
 
 Getting Started
@@ -13,7 +15,8 @@ Results
 Contributing
 
 Acknowledgments
-- Paper citation
+
+Paper citation
 
 
 This document serves as an accompanying guide for the technical execution of the thesis: 
