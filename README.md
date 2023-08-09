@@ -4,6 +4,14 @@ Prerequisites
 
 Getting Started
 
+- Install Java
+- Install Eclipse
+- Clone MATSim Open Berlin Scenario (According to the following website: OPEN BERLIN XY)
+- Install packages
+- Set up Maven project
+- Run RunDRTOpenBerlinScenario
+
+
 Installation
 
 Usage
