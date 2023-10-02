@@ -79,6 +79,7 @@ public final class RunBerlinScenario {
 			//args = new String[] {"scenarios/berlin-v5.5-10pct/input/berlin-v5.5-10pct.config_SC2.0.xml"}  ;
 			//args = new String[] {"scenarios/berlin-v5.5-10pct/input/berlin-v5.5-10pct.config_SC3.0.xml"}  ;
 			//// ADJUSTMENTS END LK
+		
 		}
 
 		Config config = prepareConfig( args ) ;
