@@ -1,4 +1,4 @@
-**Summary
+**Summary**
 
 This document serves as a guide for the execution of simulations and processing of results related to the thesis: 
 
@@ -24,14 +24,14 @@ With the newly generated input files, the scenarios as outlined in the thesis ca
 
 
 
-Details about the machine used for the 10% Scenarios
+**Details about the machine used for the 10% Scenarios**
 - Ubuntu 20.04.6 LTS
 - CPU: Intel (R) Core (TM) i9-10900K CPU @ 3.70 GHz
 - Memory size: 128 GiB
 
 
 
-Prerequisites
+**Prerequisites**
 
 - Java and Eclipse (or similar IDE)
 	openjdk 11.0.20.1 2023-08-24 // Eclipse Version: 2023-06 (4.28.0)
@@ -65,7 +65,7 @@ Prerequisites
 
 
 
-Step-By-Step Guide To Run MATSim on Your Machine:
+**Step-By-Step Guide To Run MATSim on Your Machine**
 
 - Install Java
 	openjdk 11.0.20.1 2023-08-24
@@ -83,15 +83,15 @@ Step-By-Step Guide To Run MATSim on Your Machine:
 
 
 
-Step-By-Step Guide To Generate Scenarios of the Thesis
+**Step-By-Step Guide To Reproduce Scenarios of the Thesis**
 
 
 
 
-Results
+**Results**
 - Processed results are documented in the folder Results 
 
-Reference
+**Reference**
 - The MATSim Open Berlin Scenario that we used for our analyses is based on the paper: https://www.sciencedirect.com/science/article/pii/S1877050919305848?via%3Dihub
 
 
