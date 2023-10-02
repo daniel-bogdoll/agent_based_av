@@ -1,3 +1,11 @@
 Find here all config files as well as files other than network and plans files.
 
 Copy and Paste both the created network and plans files into the according folder (e.g., if plans file is named: SC1.3, than paste it into the SC1.3 folder)
+
+**Missing files**
+Copy & Paste the following two plans files from the Input_Processed/10pct folder:
+
+berlin-v5.5-10pct_SC2.plans.xml.gz
+
+berlin-v5.5-10pct_SC3.plans.xml.gz
+
