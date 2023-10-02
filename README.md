@@ -28,8 +28,18 @@ Prerequisites
 - 128 GB Ram
 - Java and Eclipse (or similar IDE)
 	openjdk 11.0.20.1 2023-08-24 // Eclipse Version: 2023-06 (4.28.0)
-- Python Packages
-		
+- Python Packages Preprocessing
+- Python Packages Postprocessing
+	import pandas
+	import xml.etree.ElementTree
+	from matplotlib.colors import LinearSegmentedColormap, TwoSlopeNorm
+	from matplotlib.ticker import ScalarFormatter
+	import gzip
+	from collections import defaultdict
+	import matplotlib.pyplot
+	import os
+	import matplotlib.colors
+	from matplotlib.colors import PowerNorm
 
 
 Step-By-Step Guide:
