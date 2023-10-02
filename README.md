@@ -1,4 +1,4 @@
-Summary
+**Summary
 
 This document serves as a guide for the execution of simulations and processing of results related to the thesis: 
 
