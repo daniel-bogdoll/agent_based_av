@@ -1,3 +1,6 @@
-**Missing Files**
+**Missing files**
+Copy & Paste the following two files from the Input_Processed and Input_Processed/10pct folder:
 
-Network And Plans
+berlin-v5.5-10pct_SC1_SCX.1.plans.xml.gz
+
+berlin-v5.5-network_SCX.1.xml.gz
