@@ -25,7 +25,7 @@ With the newly generated input files, the scenarios as outlined in the thesis ca
 
 
 **Details about the machine used for the 10% Scenarios**
-- Ubuntu 20.04.6 LTS
+- Operating System: Ubuntu 20.04.6 LTS
 - CPU: Intel (R) Core (TM) i9-10900K CPU @ 3.70 GHz
 - Memory size: 128 GiB
 
