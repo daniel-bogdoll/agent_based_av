@@ -24,7 +24,7 @@
 		<param name="inputNetworkFile" value="SC2.1/berlin-v5.5-network_SCX.1.xml.gz" />
 	</module>
 	<module name="plans" >
-		<param name="inputPlansFile" value="SC2.1/berlin-v5.5-10pct_SC2_SCX.1.plans.xml.xml" />
+		<param name="inputPlansFile" value="SC2.1/berlin-v5.5-10pct_SC2_SCX.1.plans.xml" />
 		<param name="removingUnnecessaryPlanAttributes" value="false" />
 	</module>
 	<module name="vehicles" >
