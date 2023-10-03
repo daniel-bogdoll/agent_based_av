@@ -114,7 +114,7 @@ Run SAV scenarios
 
 
 **Results**
-- Processed scenario results are documented in the directory results
+- Processed travel demand forecast and simulation results are documented in the directory results
 - Python files used for additional postprocessing (e.g., to reproduce heat maps) can be found in the Data_Postprocessing directory
 
 **Reference**
