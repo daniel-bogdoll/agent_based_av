@@ -1,0 +1,7 @@
+**Missing Files**
+
+- To run the Heatmap_Used_Links_Excel_Creation.py add the events file (taken from the MATSim Outputs) of the specific scenario to this directory (e.g., SC1.0_berlin-v5.5-10pct.1.events.xml.gz). Make sure to name the events file accordingly.
+
+- Next, Deltas are manually being calculated within the Excel Sheets and saved as new Delta Files (e.g., SC2.0_Delta) to be used as inputs for the final heatmap generation. An exemplary version of the xlsx files is attached.
+
+- Consequently, the file Heatmap_Used_links_Image_Creation.py can only be run after setting up the new Delta.xlsx files as it uses these xlsx outputs.

@@ -1,0 +1,3 @@
+**Missing Files**
+
+- To run the Create_Heat_Map_SAV_Hub.py add a network file to this directory (e.g., berlin-v5.5-network.xml). Make sure to name the events file accordingly.Additionally, this file can only be run after calculating the SAVs per link as it uses the xlsx outputs from Create_Excle_SAV_Hubs.py.
