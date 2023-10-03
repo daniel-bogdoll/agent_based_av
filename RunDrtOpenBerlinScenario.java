@@ -107,6 +107,25 @@ public final class RunDrtOpenBerlinScenario {
 			
 			//Use this for SC3.3 scenario
 			//args = new String[] {"scenarios/berlin-v5.5-10pct/input/drt/berlin-drt-v5.5-10pct.config_SC3.3.xml"}  ;	
+
+
+			//Use this for the Testing Scenario S1.3
+			//args = new String[] {"scenarios/berlin-v5.5-1pct/input/drt/berlin-drt-v5.5-1pct.config_SC1.3.xml"}  ;
+			
+			//Use this for the Testing Scenario S1.3 Hub
+			//args = new String[] {"scenarios/berlin-v5.5-1pct/input/drt/berlin-drt-v5.5-1pct.config_SC1.3_Hub.xml"}  ;
+			
+			//Use this for the Testing Scenario S1.3 6-Seats
+			//args = new String[] {"scenarios/berlin-v5.5-1pct/input/drt/berlin-drt-v5.5-1pct.config_SC1.3_6seats.xml"}  ;
+			
+			//Use this for the Testing Scenario S1.3 60 Fleet
+			//args = new String[] {"scenarios/berlin-v5.5-1pct/input/drt/berlin-drt-v5.5-1pct.config_SC1.3_60_Fleet.xml"}  ;
+			
+			//Use this for the Testing Scenario S1.3 40 Fleet
+			//args = new String[] {"scenarios/berlin-v5.5-1pct/input/drt/berlin-drt-v5.5-1pct.config_SC1.3_40_Fleet.xml"}  ;
+			
+			//Use this for the Testing Scenario S1.3 20 Fleet
+			//args = new String[] {"scenarios/berlin-v5.5-1pct/input/drt/berlin-drt-v5.5-1pct.config_SC1.3_20_Fleet.xml"}  ;	
 			//// ADJUSTMENTS END LK
 			
 		}
