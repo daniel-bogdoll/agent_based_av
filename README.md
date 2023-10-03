@@ -62,8 +62,8 @@ With the newly generated input files, the scenarios as outlined in the thesis ca
 - Set Up MATSim as a Maven project in Eclipse
 	According to the attached submodule: https://github.com/daniel-bogdoll/matsim-berlin/tree/7c28ca12cc283561cd2b7236430d6381cc704ef6
 - Open the following .java files in your IDE
-	For non SAV scenarios: src/main/java/org/matsim/run/RunBerlinScenario.java
-	For SAV scenarios: src/main/java/org/matsim/run/drt/RunDrtOpenBerlinScenario.java
+	- For non SAV scenarios: src/main/java/org/matsim/run/RunBerlinScenario.java
+	- For SAV scenarios: src/main/java/org/matsim/run/drt/RunDrtOpenBerlinScenario.java
 	
 - Execute either of the files for testing
 
