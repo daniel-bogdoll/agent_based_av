@@ -37,7 +37,11 @@ With the newly generated input files, the scenarios as outlined in the thesis ca
 
 - Java and Eclipse (or similar IDE)
 	openjdk 11.0.20.1 2023-08-24 // Eclipse Version: 2023-06 (4.28.0)
-	
+
+- Python: Python 3.8.10 (default, May 26 2023, 14:05:08)
+
+- Python 3.8.10 Standard Packages
+
 - Python Packages Preprocessing
 	- pandas==2.0.3
 	- matplotlib==3.7.3
