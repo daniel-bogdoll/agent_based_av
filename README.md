@@ -6,7 +6,7 @@ This document serves as a guide for the execution of the simulations and the pro
 
 In the submodule "submodule @7c28ca1" find the version of the Open Berlin MATSim Scenario that we used as a baseline.
 
-In the folder Data-Preparation find the python scripts to process the original input files of the Open Berlin Scenario to generate input files that we used for our simulations.
+In the directory Data-Preparation find the python scripts to process the original input files of the Open Berlin Scenario to generate input files that we used for our simulations.
 
 The "input", RunBerlinScenario.java and RunDrtOpenBerlinScenario.java describe three files to adjust extracted from the OpenBerlinScenario
 
@@ -75,7 +75,7 @@ With the newly generated input files, the scenarios as outlined in the thesis ca
 
 **Step-By-Step Guide To Reproduce Scenarios from the Thesis**
 
-- Clone the Data Preparation folder
+- Clone the Data Preparation directory
 
 Plans files
 - Execute the "Plans_Demand_Forecast_Implementation.py" file to create the plans files that include travel demand increases 
@@ -88,33 +88,34 @@ Network files
 - Execute the "Network_Manipulation.py" file to create the three SAV-only network files used for all SAV scenarios
 - You have now succesfully created all required network files!
 
-- Clone the "Input" Folder of this Git Repository and replace the "Input" Folder in your matsim-berlin directory located at ./matsim-berlin/scenarios/berlin-v5.5-10pct/
+- Clone the "Input" directory of this Git Repository and replace the "Input" directory in your matsim-berlin directory located at ./matsim-berlin/scenarios/berlin-v5.5-10pct/
 
 Finalize Non SAV scenarios
-- Move to folder ./input
-- Copy&Paste the two plans files "berlin-v5.5-10pct_SC2.plans.xml.gz" and "berlin-v5.5-10pct_SC3.plans.xml.gz" into the /input folder to run the non-SAV scenarios
+- Move to directory ./input
+- Copy&Paste the two plans files "berlin-v5.5-10pct_SC2.plans.xml.gz" and "berlin-v5.5-10pct_SC3.plans.xml.gz" into the /input directory to run the non-SAV scenarios
 
 Finalize SAV scenarios
-- Move to folder ./input/drt
+- Move to directory ./input/drt
 - Update the directory in Line 171 of each config file by adding your filepath of the matsim-berlin clone (/ADJUSTACCORDINGTOYOURDIRECTORY/matsim-berlin/scenarios/berlin-v5.5-10pct/input/drt/SCX.X/berlin.shp)
 - Note: It has to be the entire directory path of where your cloned matsim-berlin directory is located to avoid errors
-- Move to each scenario folder (e.g. SC1.1)
-- As noted in each readme file per scenario folder (e.g. SC1.1), copy&paste the according network and plans files into these folders
-- E.g., copy&paste "berlin-v5.5-network_SCX.1.xml.gz" and "berlin-v5.5-10pct_SC1_SCX.1.plans.xml" from the Input_Processed and Input_Processed/10pct folder to the input/drt/SC1.1 folder 
+- Move to each scenario directory (e.g. SC1.1)
+- As noted in each readme file per scenario directory (e.g. SC1.1), copy&paste the according network and plans files into these directorys
+- E.g., copy&paste "berlin-v5.5-network_SCX.1.xml.gz" and "berlin-v5.5-10pct_SC1_SCX.1.plans.xml" from the Input_Processed and Input_Processed/10pct directory to the input/drt/SC1.1 directory 
 
 Run Non SAV scenarios
 - Clone the RunBerlinScenario.java file of this Git Repository
-- Move to your local folder ./matsim-berlin/src/main/java/org/matsim/run and replace the RunBerlinScenario.java file
+- Move to your local directory ./matsim-berlin/src/main/java/org/matsim/run and replace the RunBerlinScenario.java file
 - You can now run the Non SAV scenarios by running this java file through Eclipse after commenting out the specific scenario to run in lines 78-80
 
 Run SAV scenarios
 - Clone the RunDrtOpenBerlinScenario.java file of this Git Repository
-- Move to your local folder ./matsim-berlin/src/main/java/org/matsim/run/drt and replace the RunDrtOpenBerlinScenario.java file
+- Move to your local directory ./matsim-berlin/src/main/java/org/matsim/run/drt and replace the RunDrtOpenBerlinScenario.java file
 - You can now run the SAV scenarios by running this java file through Eclipse after commenting out the specific scenario to run in lines 78-110
 
 
 **Results**
-- Processed Scenario results are documented in the folder Results 
+- Processed scenario results are documented in the directory results
+- Python files used for additional postprocessing (e.g., to reproduce heat maps) can be found in the Data_Postprocessing directory
 
 **Reference**
 - The MATSim Open Berlin Scenario as well as all mentioned .java files and unprocessed input files that we used for our analyses are based on the paper: https://www.sciencedirect.com/science/article/pii/S1877050919305848?via%3Dihub
