@@ -39,31 +39,13 @@ With the newly generated input files, the scenarios as outlined in the thesis ca
 	openjdk 11.0.20.1 2023-08-24 // Eclipse Version: 2023-06 (4.28.0)
 	
 - Python Packages Preprocessing
-	import xml.etree.ElementTree as ET
-	import pandas as pd
-	import os
-	import random
-	from datetime import timedelta
-	import copy
-	import shutil
-	import requests
-	import gzip
+	- pandas==2.0.3
+	- matplotlib==3.7.3
+	- requests==2.22.0
 
 - Python Packages Postprocessing 
-	import pandas 
-	import gzip
-	import xml.etree.ElementTree 
-	from matplotlib.colors import LinearSegmentedColormap, TwoSlopeNorm 
-	from matplotlib.ticker import ScalarFormatter 
-	import gzip from collections 
-	import defaultdict 
-	import matplotlib.pyplot 
-	import os 
-	import matplotlib.colors 
-	from matplotlib.colors 
-	import PowerNorm 
-	import re
-	
+	- pandas==2.0.3
+	- matplotlib==3.7.3
 - Other
 	Font "Times New Roman" Installed on machine for heatmap generation		
 
