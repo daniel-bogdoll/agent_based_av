@@ -112,6 +112,10 @@ Run SAV scenarios
 - Move to your local directory ./matsim-berlin/src/main/java/org/matsim/run/drt and replace the RunDrtOpenBerlinScenario.java file
 - You can now run the SAV scenarios by running this java file through Eclipse after commenting out the specific scenario to run in lines 78-110
 
+Run Testing Scenarios
+- Clone the Input_Additional_Analyses Directory from this Git Repository and replace your local 1pct/input/drt file with the drt files from the cloned Input_Additional_Analyses directory
+- 
+
 
 **Results**
 - Processed travel demand forecast and simulation results are documented in the directory results
