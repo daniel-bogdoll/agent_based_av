@@ -105,16 +105,17 @@ Finalize SAV scenarios
 Run Non SAV scenarios
 - Clone the RunBerlinScenario.java file of this Git Repository
 - Move to your local directory ./matsim-berlin/src/main/java/org/matsim/run and replace the RunBerlinScenario.java file
-- You can now run the Non SAV scenarios by running this java file through Eclipse after commenting out the specific scenario to run in lines 78-80
+- You can now run the Non SAV scenarios by running this java file through Eclipse after commenting out the specific scenario to run in lines 78ff
 
 Run SAV scenarios
 - Clone the RunDrtOpenBerlinScenario.java file of this Git Repository
 - Move to your local directory ./matsim-berlin/src/main/java/org/matsim/run/drt and replace the RunDrtOpenBerlinScenario.java file
-- You can now run the SAV scenarios by running this java file through Eclipse after commenting out the specific scenario to run in lines 78-110
+- You can now run the SAV scenarios by running this java file through Eclipse after commenting out the specific scenario to run in lines 78ff
 
 Run Testing Scenarios
-- Clone the Input_Additional_Analyses Directory from this Git Repository and replace your local 1pct/input/drt file with the drt files from the cloned Input_Additional_Analyses directory
-- 
+- Clone the Input_Additional_Analyses directory from this Git Repository and replace your local drt file (under .berlin-v5.5-1pct/input/) with the drt files from the cloned Input_Additional_Analyses directory
+- Add the plans file and network file as outlined in the readme within drt/SC1.3
+- You can now run the testing scenarios via the same RunDrtOpenBerlinScenario.java file as the 10pct version by chossing the specific config file in line 78ff
 
 
 **Results**
