@@ -1,3 +1,0 @@
-**Missing Files**
-
-- To run the Heatmap_Used_Links_Excel_Creation.py add the events file (taken from the MATSim Outputs) of the specific scenario to this directory (e.g., SC1.0_berlin-v5.5-10pct.1.events.xml.gz). Make sure to name the events file accordingly.
