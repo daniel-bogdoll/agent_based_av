@@ -1,4 +1,7 @@
 **Missing files**
 berlin-v5.5-1pct_SC1_SCX.3.plans.xml
+- To get the 1pct SC1.3 plans file you can run the Plans_Adjustments.py from our Data_Preparation directory
+- Set the database = "1pct", the forecast = "SC1" and the scenario = ["SCX.3"]
 
 berlin-v5.5-network_SCX.3.xml.gz
+- They network file can be the same as from the 10pct version
