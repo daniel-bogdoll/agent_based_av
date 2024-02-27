@@ -1,12 +1,12 @@
-**Summary**
+# Summary
 
-This document serves as a guide for the execution of the simulations and the processing of results related to the thesis: 
+This document serves as a guide for the execution of the simulations and the processing of results related to the thesis "Sustainability of Autonomous Vehicles: An Agent-based Simulation of the Private Passenger Sector" and paper "On The Impact of Replacing Private Cars with Autonomous Shuttles: An Agent-Based Approach".
 
-"Sustainability of Autonomous Vehicles: An Agent-based Simulation of the Private Passenger Sector"
+# Overview
 
-In the submodule "submodule @7c28ca1" find the version of the Open Berlin MATSim Scenario that we used as a baseline.
+In the submodule "submodule @7c28ca1" you find the version of the Open Berlin MATSim Scenario that we used as a baseline.
 
-In the directory Data-Preparation find the python scripts to process the original input files of the Open Berlin Scenario to generate input files that we used for our simulations.
+In the directory Data-Preparation you find the python scripts to process the original input files of the Open Berlin Scenario to generate input files that we used for our simulations.
 
 The "input", RunBerlinScenario.java and RunDrtOpenBerlinScenario.java describe three files to adjust extracted from the OpenBerlinScenario
 
@@ -24,16 +24,12 @@ Overview of changes to input files that we made:
 
 With the newly generated input files, the scenarios as outlined in the thesis can be run
 
-
-
-**Details about the Machine We Used for the 10% Scenarios**
+## Details about the machine used for the 10% scenarios
 - Operating System: Ubuntu 20.04.6 LTS
 - CPU: Intel (R) Core (TM) i9-10900K CPU @ 3.70 GHz
 - Memory size: 128 GiB
 
-
-
-**Prerequisites**
+## Prerequisites
 
 - Java and Eclipse (or similar IDE)
 	openjdk 11.0.20.1 2023-08-24 // Eclipse Version: 2023-06 (4.28.0)
@@ -53,9 +49,7 @@ With the newly generated input files, the scenarios as outlined in the thesis ca
 - Other
 	Font "Times New Roman" Installed on machine for heatmap generation		
 
-
-
-**Step-By-Step Guide To Run (Default) MATSim Simulations on Your Machine**
+## Step-By-Step guide To run (default) MATSim simulations on your machine
 
 - Install Java
 	openjdk 11.0.20.1 2023-08-24
@@ -71,9 +65,7 @@ With the newly generated input files, the scenarios as outlined in the thesis ca
 	
 - Execute either of the files for testing
 
-
-
-**Step-By-Step Guide To Reproduce Scenarios from the Thesis**
+## Step-By-Step guide To reproduce our scenarios
 
 - Clone the Data Preparation directory
 
@@ -118,10 +110,20 @@ Run Testing Scenarios
 - You can now run the testing scenarios via the same RunDrtOpenBerlinScenario.java file as the 10pct version by chossing the specific config file in line 78ff
 
 
-**Results**
+# Results
 - Processed travel demand forecast and simulation results are documented in the directory results
 - Python files used for additional postprocessing (e.g., to reproduce heat maps) can be found in the Data_Postprocessing directory
 
-**Reference**
+## Reference
 - The MATSim Open Berlin Scenario as well as all mentioned .java files and unprocessed input files that we used for our analyses are based on the paper: https://www.sciencedirect.com/science/article/pii/S1877050919305848?via%3Dihub
 
+## Citation
+If you found our work helpful, please cite it as follows:
+```
+@InProceedings{bogdoll2024impact,
+      title={On The Impact of Replacing Private Cars with Autonomous Shuttles: An Agent-Based Approach}, 
+      author={Daniel Bogdoll and Louis Karsch and Jennifer Amritzer and J. Marius Zöllner},
+      year={2024},
+      booktitle={IEEE Forum for Innovative Sustainable Transportation Systems (FISTS)}
+}
+```
